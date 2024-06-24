@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  gap: 20px;
+}
+
+.header .image {
+  width: 150px;
+  height: 150px;
+}
+
+.header .image img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.header .name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+@media(max-width:667px){
+
+  .header .image {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .header .image img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (min-width:891px) and (max-width:1290px){
+  .header .name h3{
+    text-align: center;
+  }
+}
